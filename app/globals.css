@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.menu_list ul li a  {
+    @apply text-[20px] text-white font-bold font-interFont ml-20;
+}
+.hero_container {
+    @apply max-w-[1820px] m-auto;
+}
+.hero_bottom_content {
+    @apply text-center pt-[150px] pb-[90px];
+}
+.hero_bottom_content h2 {
+    @apply text-white font-interFont font-extrabold text-[96px] leading-[96px];
+}
+.hero_bottom_content p {
+    @apply font-interFont text-[18px] text-white max-w-[888px] m-auto pt-[30px] pb-[60px] shadow-[textshadow];
+}
